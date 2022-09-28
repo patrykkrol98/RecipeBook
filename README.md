@@ -44,10 +44,7 @@ Project is: _in progress_
 
 
 ## Room for Improvement
-The next step in development is adding the ability to identify users by logging in
 
-Room for improvement:
-- JWT Authentication
 
 To do:
 - adding up the quantities of the same products
