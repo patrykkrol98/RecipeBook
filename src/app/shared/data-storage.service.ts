@@ -18,7 +18,7 @@ export class DataStorageService {
     const recipes = this.recipeService.getRecipes();
     this.http
       .put(
-        'https://recipe-book-98f32-default-rtdb.europe-west1.firebasedatabase.app/recipes.json',
+        'https://recipebook-5a83f-default-rtdb.europe-west1.firebasedatabase.app/recipes.json',
         recipes
       )
       .subscribe(response => {
@@ -29,7 +29,7 @@ export class DataStorageService {
   fetchRecipes() {
     return this.http
       .get<Recipe[]>(
-        'https://recipe-book-98f32-default-rtdb.europe-west1.firebasedatabase.app/recipes.json'
+        'https://recipebook-5a83f-default-rtdb.europe-west1.firebasedatabase.app/recipes.json'
       )
       .pipe(
         map(recipes => {
