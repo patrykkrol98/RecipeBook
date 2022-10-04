@@ -1,6 +1,6 @@
 # RecipeBook 🥙 🥣 🍳
 > Store & manage your recipes with shopping list.
-> Live demo [_here_](https://recipe-book-98f32.web.app/).
+> Live demo [_here_](https://recipebook-5a83f.web.app/).
 > (Fetch data in menu in top right corner)
 
 ## Table of Contents
@@ -40,7 +40,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 
 ## Project Status
-Project is: _in progress_ 
+Project is: Done
 
 
 ## Room for Improvement
